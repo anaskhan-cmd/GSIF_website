@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+.bg-hero-mesh {
+    background: linear-gradient(to bottom, rgba(0, 54, 35, 0.85), rgba(0, 54, 35, 0.4)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+}
+.text-balance { text-wrap: balance; }
